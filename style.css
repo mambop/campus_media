@@ -88,21 +88,18 @@ nav li:hover .dropdown li{
         background: url(./img/add1.jpg); 
         background-repeat: no-repeat;
         background-size:cover;
-        /* background-position: center; */
         background-size: 100% 100%;
     }
     60%{
         background: url(./img/add2.jpg); 
         background-repeat: no-repeat;
         background-size: cover;
-        /* background-position: center; */
         background-size: 100% 100%;
     }
     100%{
         background: url(./img/add3.jpg); 
         background-repeat: no-repeat;
         background-size: cover;
-        /* background-position: center; */
         background-size: 100% 100%;
     }
 }
@@ -176,6 +173,48 @@ section p{
 .banner{
     font-size: 40px;
     text-align: center;
+}
+.payment-container{
+    display: flex;
+justify-content: space-between;
+padding-top: 20px;
+
+
+}
+.payment form{
+    text-align: center;
+    width: 100%;
+}
+
+.payment label{
+    display:block;
+    padding-top: 20px;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+
+.payment input[type=text]{
+    width: 70%;
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color:#eeeeee;
+    padding: 20px 0 0 10px;
+    font-size: 20px;
+    border: none;
+}
+.payment select{
+    width:70%;
+    padding: 10px;
+    background-color:#eeeeee;
+    border-radius: 5px;
+}
+::-webkit-input-placeholder {
+    color: red;
+}
+.map{
+    width: 400px;
+    height: 300px;
 }
 
 footer{
